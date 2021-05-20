@@ -1,0 +1,53 @@
+.container{
+    padding: 0;
+    margin: 198px;
+    box-sizing: border-box;
+    
+    
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+.top-log{
+    max-width: 413px;
+    margin-bottom: 25px;
+    
+}
+.input{
+   padding: 7px 115px;
+   
+}
+.search-input-mic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top : 15%;
+}
+
+.fa-search::before{
+    
+    position: relative;
+    left: 150%
+}
+.fa-microphone::before{
+    position: relative;
+    right: 150%
+    
+}
+.fa-microphone:hover{
+    cursor: pointer;
+}
+.fa-search:hover{
+cursor: pointer;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top:3% ;
+}
+.button1{
+    margin-right: 3%;
+    padding: 5px;
+}
